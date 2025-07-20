@@ -1,0 +1,46 @@
+.lib-btn {
+  padding: 0.5em 1.5em;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.lib-btn:hover {
+  background: #0056b3;
+}
+
+.lib-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 1em;
+}
+.lib-card-content {
+  margin-top: 0.5em;
+}
+
+.lib-alert {
+  padding: 0.75em 1em;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  color: #fff;
+  font-weight: 500;
+}
+.lib-alert-info {
+  background: #17a2b8;
+}
+.lib-alert-success {
+  background: #28a745;
+}
+.lib-alert-error {
+  background: #dc3545;
+}
+.lib-alert-warning {
+  background: #ffc107;
+  color: #333;
+} 
